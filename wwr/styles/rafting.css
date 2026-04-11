@@ -9,8 +9,10 @@
 
 header {
     display: grid;
-    background-color: var(--primary-color);
+    background-color: rgb(0, 110, 182);
     color: var(--accent2-color);
+    padding: 0.5rem;
+
 }
 
 * {
@@ -59,8 +61,9 @@ nav {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    align-content: space-between;
+    border-radius: 4px;
     list-style: none;
+    overflow: hidden;
 }
 
 .nav-links li {
@@ -69,16 +72,18 @@ nav {
 }
 
 .nav-links a {
-    display: block;
+
     padding: 10px 25px;
     text-decoration: none;
     color: #333;
-    font-size: 14px;
+
+    border-right: 1px solid #777;
 
 }
 
 .logo img {
     height: 80px;
+    width: 80px;
     display: block;
 }
 
@@ -170,4 +175,149 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.information {
+    margin-top: 30px;
+}
+
+.information h1 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.information h6 {
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+main {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    font-family: sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.map-contact iframe {
+    width: 400px;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+.form-item {
+    display: flex;
+    align-items: center;
+}
+
+.form-side {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 30px;
+
+}
+
+.form-item label {
+    width: 120px;
+}
+
+.form-item input[type="text"],
+.form-item input[type="email"],
+textarea {
+    padding: 8px;
+    border: 1px solid #777;
+    border-radius: 4px;
+    margin: 3px;
+
+}
+
+.form-item.two {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+textarea {
+    width: 200px;
+    height: 50px
+}
+
+.form-item.two label {
+    margin-bottom: 5px;
+}
+
+.radio {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.radio label {
+    width: auto
+}
+
+;
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.submit-btn {
+    background-color: #e0e0e0;
+    border: 1px solid #777;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.employee {
+    background-color: lightblue;
+    border: 1px solid #777;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.employee h3 {
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-card img {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    margin-bottom: 10px;
+}
+
+.profile-card p {
+    margin: 0;
+    font-size: 14px;
+    padding-top: 8px;
 }
