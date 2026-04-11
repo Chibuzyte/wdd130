@@ -46,13 +46,14 @@
 
             <form class="form-side">
                 <div class="form-item">
-                    <label>Name</label>
-                    <input type="text" placeholder="Placeholder">
+                    <label for="full-name">Name</label>
+                    <input type="text" id="full-name" name="visitor's name"
+                      placeholder="Placeholder">
                 </div>
 
 
                 <div class="form-item">
-                    <label>Email</label>
+                    <label for="user-email" id="user-email">Email</label>
                     <input type="email" placeholder="Placeholder">
                 </div>
 
@@ -60,20 +61,24 @@
                 <div class="form-item">
                     <label>Message Purpose</label>
                     <div class="radio-group">
-                        <label><input input type="radio" name="purpose">General Inquiry</label>
-                        <label><input input type="radio" name="purpose">Reservation Question</label>
-                        <label><input input type="radio" name="purpose">Website Suggestion</label>
+                        <label for="purpose-gen"><input type="radio" id="purpose-gen" name="purpose"
+                              value="general">General Inquiry</label>
+                        <label for="purpose-res"><input type="radio" id="purpose-res" name="purpose"
+                              value="reservation">Reservation Question</label>
+                        <label for="purpose-web"><input type="radio" id="purpose-res" name="purpose"
+                              value="website">Website Suggestion</label>
 
                     </div>
                 </div>
 
                 <div class="form-item two">
-                    <label>Message</label>
-                    <textarea placeholder="Type here"></textarea>
+                    <label for="message-box">Message</label>
+                    <textarea id="message-box" name="message-content"
+                      placeholder="Type here"></textarea>
                 </div>
 
                 <div class="checkbox">
-                    <input type="checkbox" id="subscribe">
+                    <input type="checkbox" id="subscribe" name="subscribe_newsletter">
                     <label for="subscribe">Please Subscribe me to the monthly newsletter</label>
 
                 </div>
