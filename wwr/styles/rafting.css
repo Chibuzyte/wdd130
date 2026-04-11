@@ -251,7 +251,7 @@ textarea {
     margin-bottom: 5px;
 }
 
-.radio {
+.radio-group {
     display: flex;
     flex-direction: column;
     gap: 5px;
