@@ -10,10 +10,10 @@ body {
 
 header,
 footer {
-    background-color: #3333;
-    color: white;
-    padding: 10px;
-    text-align: var(--text-align);
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
     font-size: 1.5rem;
 
 }
@@ -34,7 +34,7 @@ h2 {
 
 img {
     width: 100%;
-    height: var(--height);
+    height: auto;
     box-shadow: 0 0 30px #3333;
 }
 
@@ -42,7 +42,7 @@ section {
     margin: 20px 0;
     border: 1px solid rgb(0 0 0 / 10%, green, blue);
     padding: 10px;
-    background-color: #ddd;
+    background-color: #abe;
     font-size: .9rem;
 }
 
@@ -51,7 +51,7 @@ section p {
 }
 
 ul {
-    margin: 10px 20px;
+    margin: 10px 20px
 }
 
 footer {
