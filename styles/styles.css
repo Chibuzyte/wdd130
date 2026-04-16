@@ -21,7 +21,6 @@ nav {
     display: flex;
     align-items: var(--text-align);
     justify-content: space-evenly;
-
 }
 
 nav a {
@@ -54,7 +53,6 @@ aside {
     width: 20rem;
     border: 1px solid #8da9ca;
     background-color: #eef4ed;
-
     text-align: var(--text-align);
     position: relative;
 }
@@ -127,6 +125,5 @@ aside {
     margin: 1rem;
     border: 1px solid #000;
     padding: 1rem;
-
     text-align: var(--text-align);
 }
