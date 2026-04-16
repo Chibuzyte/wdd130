@@ -79,7 +79,7 @@ ul a {
 .box {
     margin: 1rem;
     border: 1px solid #0b2545;
-    padding: 1 rem;
+    padding: 1rem;
     background-color: #13315c;
     color: #eef4ed;
 }
@@ -90,12 +90,12 @@ main img {
     height: var(--height);
     border: 1px solid #0b2545;
     padding: 10px;
-    box-shadow: #0b2545;
+    box-shadow: #8da9ca;
 }
 
 aside h2 {
     position: absolute;
-    top: 40;
+    top: 40px;
     left: 120px;
     color: #000;
 }
@@ -104,7 +104,7 @@ header,
 .grid,
 footer {
     max-width: 840px;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 
 .grid {
