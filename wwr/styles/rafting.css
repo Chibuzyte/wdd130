@@ -154,7 +154,8 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--primary-color);
+    background-color: #000;
+    color: #e0e0e0;
     padding: 15px 30px;
 }
 
