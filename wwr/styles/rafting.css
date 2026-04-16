@@ -44,6 +44,7 @@ nav ul li a {
     display: block;
     padding: 10px 20px;
     text-decoration: none;
+    color: #000;
 
 }
 
@@ -80,6 +81,12 @@ article {
 .hero {
     position: relative;
 
+}
+
+.hero article {
+    position: absolute;
+    left: 10%;
+    opacity: 0.9;
 }
 
 .socialmedia a {
