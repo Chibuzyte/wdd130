@@ -34,7 +34,7 @@ nav ul {
 nav {
     display: flex;
     list-style: none;
-    background-color: var(--accent2-color);
+    background-color: #264653;
     border: 1px solid var(--accent1-color);
     flex: 1 1 auto;
 
@@ -44,7 +44,7 @@ nav ul li a {
     display: block;
     padding: 10px 20px;
     text-decoration: none;
-    color: #000;
+    color: #e0e0e0;
 
 }
 
