@@ -217,3 +217,35 @@ footer p {
     flex-direction: column;
     align-items: center;
 }
+
+.welcome {
+    background-image: url("../images/rafting.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    border: 1px solid #055a05;
+    border-radius: 5px;
+
+}
+
+.welcome-content {
+    max-width: 800px;
+}
+
+.chat {
+    position: absolute;
+
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat img {
+    width: 30px;
+}
+
+[]
